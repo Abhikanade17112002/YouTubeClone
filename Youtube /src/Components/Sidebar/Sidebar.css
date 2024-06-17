@@ -1,0 +1,97 @@
+.sidebar{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 1rem;
+      min-height: 100vh;
+      padding-top: 6rem;
+      padding-left: 0.5rem;
+      width:10% ;
+      background-color: #fff;
+      font-size: 10px;
+}
+
+
+
+.shortcut-links  img{
+      width: 20px;
+      margin-right:18px ;
+      
+}
+.side-link{
+     
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 20px;
+      width: fit-content;
+      cursor: pointer;
+     
+      justify-content: start;
+}
+.sidebar hr{
+      border: 0px;
+      height: 1px;
+      background-color: #ccc;
+      width: 85%;
+}
+
+.subscribed-list h3{
+
+      margin: 20px 0px;
+      color: #5a5a5a;
+}
+.subscribed-list img{
+      width: 25px;
+      border-radius: 50%;
+      margin-right: 5px;
+}
+.smallsidebar {
+      width: 5%;
+}
+.smallsidebar p{
+      display: none;
+}
+.smallsidebar h3{
+      display: none;
+}
+.smallsidebar hr{
+     width: 50%;
+     margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (min-width:769px) and ( max-width:1024px)  {
+      .sidebar{
+        padding-left: 0.3rem;
+        font-size:6px;
+      }
+      .sidebar img{
+            width: 12px;
+            margin-right:8px ;
+            
+      }
+      .subscribed-list img{
+            width: 12px;
+            border-radius: 50%;
+            margin-right: 3px;
+      }
+      
+      
+    }
+
+@media screen and ( max-width:768px)  {
+      .sidebar  {
+        width: 7%;
+        padding-left: 0.5rem;
+      }
+      .sidebar p,h3{
+        display: none;
+      }
+      .sidebar hr{
+        margin-bottom: 1rem;
+      }
+      
+    }

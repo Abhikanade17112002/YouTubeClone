@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+
+ 
+}
+html,body,#root{
+  min-width: 100%;
+  min-height: 100%;
+}
+main{
+  min-width: 100%;
+  min-height: 100%;
+}
+a{
+  text-decoration: none;
+  color: #5a5a5a;
+}
+img{
+  cursor: pointer;
+}
+.div-flex{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  background-color: #f9f9f9;
+  padding-left: 15%;
+  padding-top: 1.5%;
+  padding-right: 2%;
+}
+.large-container{
+  
+  padding-left: 5%;
+
+}
+.side-link.active{
+  color: red;
+  
+}
+
+a.active.side-link img{
+  border-bottom: 2px solid red ;
+}
+.hamburgermenu{
+  display: none;
+}
+
+@media screen and ( max-width:768px) {
+  .container{
+    padding-left: 8%;
+  }
+  .hamburgermenu{
+    display: inline-block;
+    z-index: 99999999;
+  }
+  
+}
